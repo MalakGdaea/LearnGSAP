@@ -17,7 +17,7 @@ const About = () => {
         })
 
         scrollTimeline.from(titleSplit.words, {
-            opacity: 0, duration: 1, yPercent: 100, ease: 'expo.out', stagger: 0.2,
+            opacity: 0, duration: 1, yPercent: 100, ease: 'expo.out', stagger: 0.1,
         })
             .from('.top-grid div, .bottom-grid div' , {
                 opacity: 0, duration: 1, ease: 'power1.inOut', stagger: 0.04,
@@ -30,7 +30,7 @@ const About = () => {
                 <div className="content">
                     <div className="md:col-span-8">
                         <p className="badge">Best Cocktails</p>
-                        <h2>Where every details matter <span className="text-white">-</span>
+                        <h2>Where every details matter <span className="text-white">- </span>
                         from muddle to garnish
                         </h2>
                     </div>
